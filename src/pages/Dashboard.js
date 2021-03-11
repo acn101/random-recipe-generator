@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { isElementOfType } from "react-dom/test-utils";
 import GetRandomRecipe from "../backend/GetRandomRecipe";
 import ShowRecipe from "../components/ShowRecipe";
 
