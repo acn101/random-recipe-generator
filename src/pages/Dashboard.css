@@ -1,0 +1,40 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-only {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  text-align: center;
+}
+
+.dashboard-only button {
+  width: 25em;
+  height: 5em;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #3a6186 0%, #89253e 100%);
+  font-weight: bold;
+  color: #fff;
+  box-shadow: #000 0 0 10px;
+  outline: none;
+  font-size: 100%;
+}
+
+@media only screen and (max-width: 25em) {
+  .dashboard-only button {
+    width: 100%;
+  }
+}
+
+.dashboard-only button:hover {
+  cursor: pointer;
+  background: linear-gradient(135deg, #3a6186 50%, #89253e 100%);
+}
